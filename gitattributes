@@ -1,0 +1,4 @@
+web/css/* linguist-vendored
+web/plugins/* linguist-vendored
+web/options/* linguist-vendored
+web/AdminPages/assets/* linguist-vendored

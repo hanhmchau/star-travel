@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+    <constant name="struts.enable.SlashesInActionNames" value="true"/>
+    <constant name="struts.patternMatcher" value="regex" />
+    <constant name="struts.action.extension" value="," />
+    <constant name="struts.custom.i18n.resources" value="struts" />
+    <!-- Configuration for the default package. -->
+    <package name="default" namespace="/" extends="struts-default" strict-method-invocation="false">
+        <result-types>
+            <result-type name="json" class="org.apache.struts2.json.JSONResult" />
+        </result-types>
+        <interceptors>
+            <interceptor name="json" class="org.apache.struts2.json.JSONInterceptor"/>
+            <interceptor name="login" class="chau.interceptor.LoginInterceptor" />
+            <interceptor name="notlogin" class="chau.interceptor.NotLoginInterceptor" />
+            <interceptor name="admin" class="chau.interceptor.AdminInterceptor" />
+            <interceptor name="own" class="chau.interceptor.OwnInterceptor" />
+            <interceptor name="adminOrOwn" class="chau.interceptor.AdminOrOwnInterceptor" />
+            <interceptor-stack name="myJsonInterceptorStack">
+                <interceptor-ref name="defaultStack" />
+                <interceptor-ref name="json">
+                    <param name="enableSMD">true</param>
+                </interceptor-ref>
+            </interceptor-stack>
+        </interceptors>
+        <default-action-ref name="not-found" />
+        <global-results>
+            <result name="login-redirect" type="redirectAction">signin</result>
+            <result name="notlogin" type="redirect">/</result>
+            <result name="forbidden" type="redirectAction">forbidden</result>
+            <result name="exception" type="redirectAction">exception</result>
+            <result name="none" type="redirectAction">not-found</result>
+        </global-results>
+        <action name="forbidden">
+            <result>/Error/403.jsp</result>
+        </action>
+        <action name="exception" class="chau.handler.ExceptionHandler">
+            <result>/Error/500.jsp</result>
+        </action>
+        <action name="not-found">
+            <result>/Error/404.jsp</result>
+        </action>
+        <action name="signin" class="chau.controller.ViewLoginAction">
+            <interceptor-ref name="defaultStack" />
+            <interceptor-ref name="notlogin" />
+            <result name="success">/Login.jsp</result>
+        </action>
+        <action name="signup" class="chau.controller.ViewSignupAction">
+            <interceptor-ref name="defaultStack" />
+            <interceptor-ref name="notlogin" />
+            <result name="success">/Signup.jsp</result>
+        </action>
+        <action name="Login" class="chau.controller.LoginAction">
+            <interceptor-ref name="myJsonInterceptorStack"/>
+            <result name="success" type="json" />
+            <result name="error" type="json">
+                <param name="errorCode">500</param>
+            </result>
+            <result name="banned" type="json">
+                <param name="errorCode">403</param>
+            </result>
+        </action>
+        <action name="SignUp" class="chau.controller.SignUpAction">
+            <interceptor-ref name="myJsonInterceptorStack"/>
+            <result name="success" type="json" />
+            <result name="fail" type="json" />
+        </action>
+        <action name="/" class="chau.controller.Index">
+            <result name="success">/Home.jsp</result>
+        </action>
+        <action name="tour/{titleUrl}" class="chau.controller.ViewTourAction">
+            <result name="success">/TourDetails.jsp</result>
+        </action>
+        <action name="GetSeatCountAction" class="chau.controller.GetSeatCountAction">
+            <interceptor-ref name="myJsonInterceptorStack"/>
+            <result name="success" type="json" />
+            <result name="fail" type="json" />
+        </action>
+        <action name="profile/booking" class="chau.controller.ViewBookingAction">
+            <interceptor-ref name="defaultStack" />
+            <result name="success">/Booking.jsp</result>
+        </action>
+        <action name="AddToCartAction" class="chau.controller.AddToCartAction">
+            <result name="success" type="redirectAction">profile/booking</result>
+            <result name="input" type="redirect" />
+        </action>
+        <action name="RemoveFromCartAction" class="chau.controller.RemoveFromCartAction">
+            <interceptor-ref name="myJsonInterceptorStack"></interceptor-ref>
+            <result name="success" type="json"></result>
+            <result name="error" type="json">
+                <param name="errorCode">500</param>
+            </result>
+        </action>
+        <action name="administrator" class="chau.controller.ViewAdminDashboardAction">
+            <interceptor-ref name="defaultStack" />
+            <interceptor-ref name="admin" />
+            <result name="success">/AdminPages/AdminDashboard.jsp</result>
+        </action>
+        <action name="administrator/create-new-tour" class="chau.controller.ViewCreateNewTourAction">
+            <interceptor-ref name="defaultStack" />
+            <interceptor-ref name="admin" />
+            <result name="success">/AdminPages/CreateNewTour.jsp</result>
+        </action>
+        <action name="administrator/create-new-destination" class="chau.controller.ViewCreateNewDestinationAction">
+            <interceptor-ref name="defaultStack" />
+            <interceptor-ref name="admin" />
+            <result name="success">/AdminPages/CreateNewDestination.jsp</result>
+        </action>
+        <action name="administrator/CreateNewTour" class="chau.controller.CreateNewTour">
+            <interceptor-ref name="myJsonInterceptorStack"/>
+            <interceptor-ref name="admin" />
+            <result name="success" type="json"></result>
+            <result name="error" type="json"></result>
+        </action>
+        <action name="administrator/ProcessTourImagesAction" class="chau.controller.ProcessTourImages">
+            <interceptor-ref name="defaultStack" />
+            <interceptor-ref name="admin" />
+            <result name="success" type="json" />
+            <result name="input" type="json" />
+        </action>
+        <action name="administrator/RemoveImageFromTourAction" class="chau.controller.RemoveImageFromTourAction">
+            <interceptor-ref name="myJsonInterceptorStack" />
+            <interceptor-ref name="admin" />
+            <result name="success" type="json" />
+            <result name="input" type="json">
+                <param name="errorCode">400</param>
+            </result>
+            <result name="error" type="json">
+                <param name="errorCode">404</param>
+            </result>
+        </action>
+        <action name="administrator/edit-tour/{titleUrl}" class="chau.controller.ViewEditTourAction">
+            <interceptor-ref name="defaultStack" />
+            <interceptor-ref name="admin" />
+            <result name="success">/AdminPages/EditTour.jsp</result>
+        </action>
+        <action name="administrator/EditTourAction" class="chau.controller.EditTourAction">
+            <interceptor-ref name="myJsonInterceptorStack" />
+            <interceptor-ref name="admin" />
+            <result name="success" type="json" />
+            <result name="input" type="json">
+                <param name="errorCode">400</param>
+            </result>
+            <result name="error" type="json">
+                <param name="errorCode">404</param>
+            </result>
+        </action>
+        <action name="administrator/AddCategoriesToTourAction" class="chau.controller.AddCategoriesToTourAction">
+            <interceptor-ref name="myJsonInterceptorStack" />
+            <interceptor-ref name="admin" />
+            <result name="success" type="json" />
+            <result name="input" type="json">
+                <param name="errorCode">400</param>
+            </result>
+            <result name="error" type="json">
+                <param name="errorCode">404</param>
+            </result>
+        </action>
+        <action name="administrator/RemoveCategoriesFromTourAction" class="chau.controller.RemoveCategoriesFromTourAction">
+            <interceptor-ref name="myJsonInterceptorStack" />
+            <interceptor-ref name="admin" />
+            <result name="success" type="json" />
+            <result name="input" type="json">
+                <param name="errorCode">400</param>
+            </result>
+            <result name="error" type="json">
+                <param name="errorCode">404</param>
+            </result>
+        </action>
+        <action name="administrator/AddDateToTourAction" class="chau.controller.AddDateToTourAction">
+            <interceptor-ref name="myJsonInterceptorStack" />
+            <interceptor-ref name="admin" />
+            <result name="success" type="json" />
+            <result name="input" type="json">
+                <param name="errorCode">400</param>
+            </result>
+            <result name="error" type="json">
+                <param name="errorCode">404</param>
+            </result>
+        </action>
+        <action name="administrator/RemoveDateFromTourAction" class="chau.controller.RemoveDateFromTourAction">
+            <interceptor-ref name="myJsonInterceptorStack" />
+            <interceptor-ref name="admin" />
+            <result name="success" type="json" />
+            <result name="input" type="json">
+                <param name="errorCode">400</param>
+            </result>
+            <result name="error" type="json">
+                <param name="errorCode">404</param>
+            </result>
+        </action>
+        <action name="administrator/EditTourItineraryAction" class="chau.controller.EditTourItineraryAction">
+            <interceptor-ref name="myJsonInterceptorStack" />
+            <interceptor-ref name="admin" />
+            <result name="success" type="json" />
+            <result name="input" type="json">
+                <param name="errorCode">400</param>
+            </result>
+            <result name="error" type="json">
+                <param name="errorCode">404</param>
+            </result>
+        </action>
+        <action name="administrator/RemoveItineraryFromTourAction" class="chau.controller.RemoveItineraryFromTourAction">
+            <interceptor-ref name="myJsonInterceptorStack" />
+            <interceptor-ref name="admin" />
+            <result name="success" type="json" />
+            <result name="input" type="json">
+                <param name="errorCode">400</param>
+            </result>
+            <result name="error" type="json">
+                <param name="errorCode">404</param>
+            </result>
+        </action>
+        <action name="checkout" class="chau.controller.ViewCheckoutPageAction">
+            <interceptor-ref name="defaultStack" />
+            <interceptor-ref name="login" />
+            <result name="success">/CheckOutStep1.jsp</result>
+            <result name="none" type="redirect">/profile/booking</result>
+        </action>
+        <action name="checkout/invoice" class="chau.controller.CheckoutAndShowInvoiceAction">
+            <interceptor-ref name="defaultStack" />
+            <interceptor-ref name="login" />
+            <result name="success">/CheckOutInvoice.jsp</result>
+            <result name="none" type="redirect">/profile/booking</result>
+        </action>
+        <action name="UpdateCartItemQuantity" class="chau.controller.UpdateCartItemQuantityAction">
+            <interceptor-ref name="myJsonInterceptorStack" />
+            <result name="success" type="json" />
+            <result name="error" type="json">
+                <param name="errorCode">500</param>
+            </result>
+        </action>
+        <action name="LogOutAction" class="chau.controller.LogOutAction">
+            <result name="success" type="redirect">${url}</result>
+        </action>
+        <action name="FindLocationsByName" class="chau.controller.FindLocationsByNameAction">
+            <interceptor-ref name="myJsonInterceptorStack" />
+            <result name="success" type="json"></result>
+            <result name="error" type="json">
+                <param name="errorCode">500</param>
+            </result>
+        </action>
+        <action name="administrator/CreateNewDestination" class="chau.controller.CreateNewDestinationAction">
+            <interceptor-ref name="myJsonInterceptorStack"/>
+            <interceptor-ref name="admin" />
+            <result name="success" type="json"></result>
+            <result name="error" type="json"></result>
+        </action>
+        <action name="administrator/ProcessLocationImagesAction" class="chau.controller.ProcessLocationImages">
+            <interceptor-ref name="defaultStack" />
+            <interceptor-ref name="admin" />
+            <result name="success" type="json" />
+            <result name="error" type="json">
+                <param name="errorCode">500</param>
+            </result>
+        </action>
+        <action name="administrator/edit-location/{titleUrl}" class="chau.controller.ViewEditLocationAction">
+            <interceptor-ref name="defaultStack" />
+            <interceptor-ref name="admin" />
+            <result name="success">/AdminPages/EditLocation.jsp</result>
+        </action>
+        <action name="administrator/EditLocationAction" class="chau.controller.EditLocationAction">
+            <interceptor-ref name="myJsonInterceptorStack" />
+            <interceptor-ref name="admin" />
+            <result name="success" type="json" />
+            <result name="input" type="json">
+                <param name="errorCode">400</param>
+            </result>
+            <result name="error" type="json">
+                <param name="errorCode">404</param>
+            </result>
+        </action>
+        <action name="administrator/RemoveImageFromLocationAction" class="chau.controller.RemoveImageFromLocationAction">
+            <interceptor-ref name="myJsonInterceptorStack" />
+            <interceptor-ref name="admin" />
+            <result name="success" type="json" />
+            <result name="input" type="json">
+                <param name="errorCode">400</param>
+            </result>
+            <result name="error" type="json">
+                <param name="errorCode">404</param>
+            </result>
+        </action>
+        <action name="administrator/AddTourLocationAction" class="chau.controller.AddTourLocationAction">
+            <interceptor-ref name="myJsonInterceptorStack" />
+            <interceptor-ref name="admin" />
+            <result name="success" type="json" />
+            <result name="input" type="json">
+                <param name="errorCode">400</param>
+            </result>
+            <result name="error" type="json">
+                <param name="errorCode">404</param>
+            </result>
+        </action>
+        <action name="administrator/RemoveTourLocationAction" class="chau.controller.RemoveTourLocationAction">
+            <interceptor-ref name="myJsonInterceptorStack" />
+            <interceptor-ref name="admin" />
+            <result name="success" type="json" />
+            <result name="input" type="json">
+                <param name="errorCode">400</param>
+            </result>
+            <result name="error" type="json">
+                <param name="errorCode">404</param>
+            </result>
+        </action>
+        <action name="profile/invoices/{userId}" class="chau.controller.ViewAllInvoicesPageAction">
+            <interceptor-ref name="defaultStack" />
+            <interceptor-ref name="adminOrOwn" />
+            <result name="success">/OldInvoices.jsp</result>
+        </action>
+        <action name="profile/settings/{userId}" class="chau.controller.ViewSettingsPageAction">
+            <interceptor-ref name="defaultStack" />
+            <interceptor-ref name="adminOrOwn" />
+            <result name="success">/Settings.jsp</result>
+        </action>
+        <action name="profile/UpdateUserPassword" class="chau.controller.UpdateUserPasswordAction">
+            <interceptor-ref name="myJsonInterceptorStack" />
+            <result name="success" type="json" />
+            <result name="error" type="json">
+                <param name="errorCode">500</param>
+            </result>
+        </action>
+        <action name="profile/UpdateUserEmail" class="chau.controller.UpdateUserEmailAction">
+            <interceptor-ref name="myJsonInterceptorStack" />
+            <result name="success" type="json" />
+            <result name="error" type="json">
+                <param name="errorCode">500</param>
+            </result>
+        </action>
+        <action name="profile/UpdateUserSettings" class="chau.controller.UpdateUserSettingsAction">
+            <interceptor-ref name="myJsonInterceptorStack" />
+            <result name="success" type="json" />
+            <result name="error" type="json">
+                <param name="errorCode">500</param>
+            </result>
+        </action>
+        <action name="administrator/manage-tours" class="chau.controller.ManageToursAction">
+            <interceptor-ref name="defaultStack" />
+            <interceptor-ref name="admin" />
+            <result name="success">/AdminPages/TourList.jsp</result>
+        </action>
+        <action name="GetAllTours" class="chau.controller.GetAllToursAction">
+            <interceptor-ref name="myJsonInterceptorStack" />
+            <result name="success" type="json" />
+            <result name="error" type="json">
+                <param name="errorCode">500</param>
+            </result>
+        </action>
+        <action name="administrator/DeleteTourAction" class="chau.controller.DeleteTourAction">
+            <interceptor-ref name="myJsonInterceptorStack" />
+            <interceptor-ref name="admin" />
+            <result name="success" type="json" />
+            <result name="error" type="json">
+                <param name="errorCode">500</param>
+            </result>
+        </action>
+        <action name="administrator/manage-users" class="chau.controller.ManageUsersAction">
+            <interceptor-ref name="defaultStack" />
+            <interceptor-ref name="admin" />
+            <result name="success">/AdminPages/UserList.jsp</result>
+        </action>
+        <action name="administrator/manage-categories" class="chau.controller.ManageCategoriesAction">
+            <interceptor-ref name="defaultStack" />
+            <interceptor-ref name="admin" />
+            <result name="success">/AdminPages/CategoryList.jsp</result>
+        </action>
+        <action name="administrator/manage-locations" class="chau.controller.ManageLocationsAction">
+            <interceptor-ref name="defaultStack" />
+            <interceptor-ref name="admin" />
+            <result name="success">/AdminPages/LocationList.jsp</result>
+        </action>
+        <action name="GetAllUsers" class="chau.controller.GetAllUsersAction">
+            <interceptor-ref name="myJsonInterceptorStack" />
+            <result name="success" type="json" />
+            <result name="error" type="json">
+                <param name="errorCode">500</param>
+            </result>
+        </action>
+        <action name="GetAllCategories" class="chau.controller.GetAllCategoriesAction">
+            <interceptor-ref name="myJsonInterceptorStack" />
+            <result name="success" type="json" />
+            <result name="error" type="json">
+                <param name="errorCode">500</param>
+            </result>
+        </action>
+        <action name="GetAllLocations" class="chau.controller.GetAllLocationsAction">
+            <interceptor-ref name="myJsonInterceptorStack" />
+            <result name="success" type="json" />
+            <result name="error" type="json">
+                <param name="errorCode">500</param>
+            </result>
+        </action>
+        <action name="administrator/SetUserStatusAction" class="chau.controller.SetUserStatusAction">
+            <interceptor-ref name="myJsonInterceptorStack" />
+            <interceptor-ref name="admin" />
+            <result name="success" type="json" />
+            <result name="error" type="json">
+                <param name="errorCode">500</param>
+            </result>
+        </action>
+        <action name="administrator/DeleteLocationAction" class="chau.controller.DeleteLocationAction">
+            <interceptor-ref name="myJsonInterceptorStack" />
+            <interceptor-ref name="admin" />
+            <result name="success" type="json" />
+            <result name="error" type="json">
+                <param name="errorCode">500</param>
+            </result>
+        </action>
+        <action name="administrator/DeleteCategoryAction" class="chau.controller.DeleteCategoryAction">
+            <interceptor-ref name="myJsonInterceptorStack" />
+            <interceptor-ref name="admin" />
+            <result name="success" type="json" />
+            <result name="error" type="json">
+                <param name="errorCode">500</param>
+            </result>
+        </action>
+        <action name="administrator/CreateNewCategoryAction" class="chau.controller.CreateNewCategoryAction">
+            <interceptor-ref name="myJsonInterceptorStack" />
+            <interceptor-ref name="admin" />
+            <result name="success" type="json" />
+            <result name="error" type="json">
+                <param name="errorCode">500</param>
+            </result>
+        </action>
+        <action name="administrator/UpdateCategoryAction" class="chau.controller.UpdateCategoryAction">
+            <interceptor-ref name="myJsonInterceptorStack" />
+            <interceptor-ref name="admin" />
+            <result name="success" type="json" />
+            <result name="error" type="json">
+                <param name="errorCode">500</param>
+            </result>
+        </action>
+        <action name="search" class="chau.controller.ViewSearchAction">
+            <result name="success">/Search.jsp</result>
+        </action>
+        <action name="SearchTour" class="chau.controller.SearchTourAction">
+            <interceptor-ref name="myJsonInterceptorStack" />
+            <result name="success" type="json" />
+            <result name="error" type="json">
+                <param name="errorCode">500</param>
+            </result>
+        </action>
+        <action name="location/{titleUrl}" class="chau.controller.ViewLocationPage">
+            <result name="success">/LocationDetails.jsp</result>
+        </action>
+        <action name="GetToursByLocation" class="chau.controller.GetToursByLocation">
+            <interceptor-ref name="myJsonInterceptorStack" />
+            <result name="success" type="json" />
+            <result name="error" type="json">
+                <param name="errorCode">500</param>
+            </result>
+        </action>
+        <action name="view-locations" class="chau.controller.ViewAllLocationsPage">
+            <result name="success">/Locations.jsp</result>
+        </action>
+        <action name="CancelOrderItem" class="chau.controller.CancelOrderItemAction">
+            <interceptor-ref name="myJsonInterceptorStack" />
+            <result name="success" type="json" />
+            <result name="error" type="json">
+                <param name="errorCode">500</param>
+            </result>
+        </action>
+        <action name="CancelOrder" class="chau.controller.CancelOrderAction">
+            <interceptor-ref name="myJsonInterceptorStack" />
+            <result name="success" type="json" />
+            <result name="error" type="json">
+                <param name="errorCode">500</param>
+            </result>
+        </action>
+        <action name="AddTourReview" class="chau.controller.AddTourReviewAction">
+            <interceptor-ref name="myJsonInterceptorStack" />
+            <result name="success" type="json" />
+            <result name="error" type="json">
+                <param name="errorCode">500</param>
+            </result>
+        </action>
+        <action name="EditTourReview" class="chau.controller.EditTourReviewAction">
+            <interceptor-ref name="myJsonInterceptorStack" />
+            <result name="success" type="json" />
+            <result name="error" type="json">
+                <param name="errorCode">500</param>
+            </result>
+        </action>
+        <action name="RemoveTourReview" class="chau.controller.RemoveTourReviewAction">
+            <interceptor-ref name="myJsonInterceptorStack" />
+            <result name="success" type="json" />
+            <result name="error" type="json">
+                <param name="errorCode">500</param>
+            </result>
+        </action>
+        <action name="administrator/reports" class="chau.controller.ViewReportAction">
+            <interceptor-ref name="admin" />
+            <result name="success">/AdminPages/Report.jsp</result>
+        </action>
+    </package>
+</struts>

@@ -1,0 +1,2029 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="HelloStruts:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e04a8505-33af-4319-a277-3e84fef3619e" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/AdminDashboard.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/AdminFooter.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/AdminHeader.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/CategoryList.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/CreateNewDestination.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/CreateNewTour.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/EditLocation.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/EditTour.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/LeftAside.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/LocationList.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/Report.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/TourList.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/UserList.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/js/dashboard.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/js/layout-builder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/bg/bg-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/bg/bg-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/bg/bg-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/bg/bg-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/bg/bg-6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/blog/blog1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/client-logos/logo1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/client-logos/logo2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/client-logos/logo3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/client-logos/logo4.15.delayed" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/client-logos/logo5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/envato/screen1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/envato/screen2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/error/bg1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/error/bg2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/error/bg3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/error/bg4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/error/bg5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/error/bg6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/files/doc.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/files/javascript.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/files/jpg.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/files/pdf.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/files/zip.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/logos/bg-6.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/logos/logo-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/logos/logo-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/logos/logo_client_color.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/logos/logo_client_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/misc/notification_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/misc/quick_actions_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/misc/user_profile_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/products/product1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/products/product10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/products/product11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/products/product6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/users/100_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/users/100_11.13.delayed" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/users/100_13.12.delayed" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/users/100_14.14.delayed" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/users/100_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/users/100_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/users/100_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/users/100_5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/users/100_6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/users/100_7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/users/100_8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/users/100_9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/users/user1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/users/user2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/users/user3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/users/user4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/users/user5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/app/media/img/users/user6.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/demo/default/base/scripts.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/demo/default/base/style.bundle.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/snippets/pages/user/login.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/base/fonts/flaticon/Flaticon.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/base/fonts/flaticon/Flaticon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/base/fonts/flaticon/Flaticon.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/base/fonts/flaticon/Flaticon.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/base/fonts/flaticon/Flaticond41d.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/base/fonts/font-awesome/fontawesome-webfont.2ed41d.delayed" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/base/fonts/font-awesome/fontawesome-webfont3e6e.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/base/fonts/font-awesome/fontawesome-webfont3e6e.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/base/fonts/font-awesome/fontawesome-webfont3e6e.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/base/fonts/font-awesome/fontawesome-webfont3e6e.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/base/fonts/font-awesome/fontawesome-webfont3e6e.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/base/fonts/line-awesome/line-awesome0176.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/base/fonts/line-awesome/line-awesomeeb4f.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/base/fonts/line-awesome/line-awesomeeb4f.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/base/fonts/line-awesome/line-awesomeeb4f.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/base/fonts/line-awesome/line-awesomeeb4f.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/base/fonts/line-awesome/line-awesomeeb4f.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/base/fonts/metronic/Metronic_fda1334c35d0f5fe2afb3afebbb6774a.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/base/fonts/metronic/Metronic_fda1334c35d0f5fe2afb3afebbb6774a.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/base/fonts/metronic/Metronic_fda1334c35d0f5fe2afb3afebbb6774a.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/base/fonts/metronic/Metronic_fda1334c35d0f5fe2afb3afebbb6774a.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/base/fonts/metronic/Metronic_fda1334c35d0f5fe2afb3afebbb6774a.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/base/fonts/metronic/Metronic_fda1334c35d0f5fe2afb3afebbb6774ad41d.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/base/fonts/socicon/socicon.28.delayed" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/base/fonts/socicon/socicon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/base/fonts/socicon/socicon.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/base/fonts/socicon/socicon.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/base/fonts/socicon/socicond41d.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/base/fonts/summernote/summernote4c4d.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/base/fonts/summernote/summernote4c4d.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/base/fonts/summernote/summernote4c4d.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/base/fonts/summernote/summernoted41d.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/base/fonts/webfont.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/base/vendors.bundle.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/base/vendors.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/custom/fullcalendar/fullcalendar.bundle.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/custom/fullcalendar/fullcalendar.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/custom/jquery-ui/images/jquery-ui/ui-icons_444444_256x240.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/custom/jquery-ui/images/jquery-ui/ui-icons_555555_256x240.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/custom/jquery-ui/images/jquery-ui/ui-icons_777620_256x240.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/custom/jquery-ui/images/jquery-ui/ui-icons_777777_256x240.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/custom/jquery-ui/images/jquery-ui/ui-icons_cc0000_256x240.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/custom/jquery-ui/images/jquery-ui/ui-icons_ffffff_256x240.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/custom/jquery-ui/jquery-ui.bundle.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/AdminPages/assets/vendors/custom/jquery-ui/jquery-ui.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/Booking.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/CheckOutInvoice.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/CheckOutStep1.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/Error/403.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/Error/404.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/Error/500.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/Error/assets/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/Error/assets/main-light.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/Error/assets/responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/Home.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/LocationDetails.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/Locations.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/Login.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/OldInvoices.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/Search.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/Settings.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/Signup.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/TourDetails.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/consts/Consts$CANCEL_WINDOW.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/consts/Consts$CATEGORY_STATUS.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/consts/Consts$ORDER_STATUS.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/consts/Consts$PREFIX.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/consts/Consts$ROLE_STATUS.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/consts/Consts$SORT_TYPE.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/consts/Consts$TOUR_STATUS.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/consts/Consts$USER_STATUS.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/consts/Consts.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/AddCategoriesToTourAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/AddDateToTourAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/AddToCartAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/AddTourLocationAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/AddTourReviewAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/CancelOrderAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/CancelOrderItemAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/CheckoutAndShowInvoiceAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/CreateNewCategoryAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/CreateNewDestinationAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/CreateNewTour.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/DeleteCategoryAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/DeleteLocationAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/DeleteTourAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/EditLocationAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/EditTourAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/EditTourItineraryAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/EditTourReviewAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/FindLocationsByNameAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/GetAllCategoriesAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/GetAllLocationsAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/GetAllToursAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/GetAllUsersAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/GetSeatCountAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/GetToursByLocation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/Index.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/LogOutAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/LoginAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/ManageCategoriesAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/ManageLocationsAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/ManageToursAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/ManageUsersAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/ProcessLocationImages.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/ProcessTourImages.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/RemoveCategoriesFromTourAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/RemoveDateFromTourAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/RemoveFromCartAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/RemoveImageFromLocationAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/RemoveImageFromTourAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/RemoveItineraryFromTourAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/RemoveTourLocationAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/RemoveTourReviewAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/SearchTourAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/SetUserStatusAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/ShowImageAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/SignUpAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/UpdateCartItemQuantityAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/UpdateCategoryAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/UpdateUserEmailAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/UpdateUserPasswordAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/UpdateUserSettingsAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/ViewAdminDashboardAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/ViewAllInvoicesPageAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/ViewAllLocationsPage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/ViewBookingAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/ViewCheckoutPageAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/ViewCreateNewDestinationAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/ViewCreateNewTourAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/ViewEditLocationAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/ViewEditTourAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/ViewLocationPage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/ViewLoginAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/ViewProfileAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/ViewReportAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/ViewSearchAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/ViewSettingsPageAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/ViewSignupAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/controller/ViewTourAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/dao/AbstractDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/dao/CategoryDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/dao/LocationDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/dao/OrderDAO$CancelResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/dao/OrderDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/dao/TourDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/dao/UserDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/dto/Cart.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/dto/CartItem.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/dto/CategoryDTO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/dto/ItineraryDTO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/dto/LocationDTO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/dto/OrderDTO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/dto/OrderItemDTO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/dto/Pagination.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/dto/RefundDTO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/dto/ReviewDTO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/dto/TourDTO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/dto/TourDateDTO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/dto/UserDTO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/handler/ExceptionHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/interceptor/AdminInterceptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/interceptor/AdminOrOwnInterceptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/interceptor/LoginInterceptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/interceptor/NotLoginInterceptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/interceptor/OwnInterceptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/utils/MyConnection.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/chau/utils/MyUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/struts.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/classes/struts.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/lib/commons-fileupload.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/lib/commons-io.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/lib/commons-lang.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/lib/freemarker.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/lib/gson-2.8.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/lib/log4j.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/lib/ognl.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/lib/sqljdbc4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/lib/struts2-core.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/lib/struts2-json-plugin-2.3.8.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/css/colors/default.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/css/toastr.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/global/Footer.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/global/GlobalCSS.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/global/GlobalJS.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/global/Header.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/global/Modals.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/global/ProfileDashboard.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/global/TourCard.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/about-us/team-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/about-us/team-02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/about-us/team-03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/blog/blog-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/blog/blog-02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/blog/blog-03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/blog/blog-04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/blog/blog-05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/blog/blog-06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/blog/blog-single-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/blog/blog-single-02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/blog/comments-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/blog/comments-02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/blog/comments-03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/blog/comments-04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/blog/instagram-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/blog/instagram-02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/blog/instagram-03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/blog/instagram-04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/blog/instagram-05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/blog/instagram-06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/blog/tab-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/blog/tab-02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/blog/tab-03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/blog/tab-04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/booking/alert-check.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/booking/booking-complete.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/booking/booking.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/booking/discover.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/booking/master-card.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/booking/paypal.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/booking/visa.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/cities/cities-big-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/cities/cities-big-02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/cities/cities-big-03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/cities/cities-big-04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/cities/cities-sm-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/cities/cities-sm-02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/cities/cities-sm-03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/cities/cities-sm-04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/cities/cities-sm-05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/cities/cities-sm-06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/cities/cities-sm-07.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/cities/cities-sm-08.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/cities/weather-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/coming-soon/coming-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/dashboard/dash-user.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/dashboard/dash-userr.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/dashboard/profile-img-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/dashboard/recent-offer-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/gallery/gallery-single-slider-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/gallery/gallery-single-slider-02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/gallery/gallery-single-slider-03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/gallery/gallery-single-thumb-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/gallery/gallery-single-thumb-02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/gallery/gallery-single-thumb-03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/holets/hotel-list-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/holets/hotel-list-02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/holets/hotel-list-03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/holets/hotel-list-04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/holets/hotel-list-05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/holets/hotel-list-06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/holets/hotel-list-07.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/holets/hotel-list-08.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/holets/hotel-list-09.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/holets/hotel-list-10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/holets/hotel-list-11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/holets/hotel-list-12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/holets/hotel-slider-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/holets/hotel-slider-02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/holets/hotel-slider-03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home-city/amazing-hotel-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home-city/fooddrink-img-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home-city/sight-img-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home-city/sight-img-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home-city/sight-img-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home-city/sight-img-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home-city/sight-img-5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home-city/sight-img-6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home-city/sight-img-7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home-city/sight-img-8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home-city/sight-img-9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home-city/slider/photo-slider-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home-city/slider/photo-slider-02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home-city/slider/photo-slider-03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home-city/slider/slider-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home-city/slider/slider-02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home-city/slider/slider-04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home-city/subscribs-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home-city/tour-guide-img.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home-city/travel-tips-img-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home-city/travel-tips-img-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home-destination/destination/destination-img-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home-destination/destination/destination-img-02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home-destination/destination/destination-img-03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home-destination/destination/destination-img-04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home-destination/destination/destination-img-05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home-destination/destination/destination-img-06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home-destination/destination/get-city-img-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home-destination/destination/get-city-img-02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home-destination/destination/get-city-img-03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home-destination/offer-section-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home-destination/package-sale-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home-destination/slider/logo-01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home-destination/slider/logo-02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home-destination/slider/logo-03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home-destination/slider/logo-04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home-destination/video-section-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home/deal/deal-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home/deal/deal-02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home/deal/deal-03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home/destination.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home/devider.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home/gallery/gallery-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home/gallery/gallery-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home/gallery/gallery-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home/gallery/gallery-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home/gallery/gallery-5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home/gallery/gallery-6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home/gallery/thumb-gallery-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home/gallery/thumb-gallery-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home/gallery/thumb-gallery-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home/gallery/thumb-gallery-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home/gallery/thumb-gallery-5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home/gallery/thumb-gallery-6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home/packages/our-packages-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home/packages/our-packages-02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home/packages/our-packages-03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home/packages/our-packages-04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home/packages/our-packages-05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home/packages/our-packages-06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home/packages/packages-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home/packages/packages-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home/packages/packages-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home/packages/packages-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home/packages/packages-5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home/packages/packages-6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home/promotion/promotion-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home/promotion/promotion-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home/slider/slider-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home/slider/slider-02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home/slider/slider-03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home/slider/slider-04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/home/slider/slider-07.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/icons/cloud-rain.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/icons/cloud-sm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/icons/cloud.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/icons/sun.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/images/8480323243_79c94b8479_b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/images/Beautiful-Venice-Italy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/images/Dunnottar-Castle.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/images/I120724_125622_480671.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/images/Shifen-Waterfall.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/images/Split-Pinnacle-Hunan-China.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/images/Valley-of-Ten-Peaks1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/images/Zhe_Zhu_China_Shortlsit_Professional_Environment_2016_3.PR.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/images/guided-morning-tour-in-seoul-including-the-national-museum-in-seoul-223745.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/images/nami-island-and-petite-france-filming-location-in-seoul-529991.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/images/pexels-photo-132037.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/images/pexels-photo-165505.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/images/pexels-photo-210012.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/images/pexels-photo-227417.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/images/pexels-photo-247929.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/images/pexels-photo-248159.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/images/pexels-photo-248771.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/images/pexels-photo-248797.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/images/pexels-photo-280189.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/images/pexels-photo-287229.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/images/pexels-photo-307008.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/images/pexels-photo-338515.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/images/pexels-photo-347141.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/images/pexels-photo-374815.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/images/pexels-photo-413960.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/images/pexels-photo-416676.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/images/pexels-photo-417344.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/images/pexels-photo-602607.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/images/shore-excursion-2-day-private-beijing-sightseeing-tour-from-taijin-in-tianjin-259483.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/images/small-group-day-trip-to-giverny-and-versailles-from-paris-in-paris-258877.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/logo-color-big.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/logo-color-sm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/logo-dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/logo-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/not-found/not-found-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/not-found/not-found.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/packages/masonry-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/packages/masonry-02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/packages/masonry-03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/packages/masonry-04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/packages/masonry-05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/packages/masonry-06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/packages/masonry-07.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/packages/masonry-08.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/packages/masonry-09.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/packages/most-populer-img-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/packages/most-populer-img-02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/packages/most-populer-img-03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/packages/package-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/packages/package-02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/packages/package-03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/packages/package-04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/packages/package-05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/packages/package-06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/packages/package-list-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/packages/package-list-02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/packages/package-list-03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/packages/package-list-04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/packages/package-list-05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/packages/package-list-06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/packages/package-list-07.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/packages/package-list-08.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/packages/package-list-09.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/packages/package-related-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/packages/package-related-02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/packages/package-related-03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/packages/package-slider-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/packages/package-slider-03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/packages/package-slider-04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/packages/package-slider-05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/packages/shape-icon-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/packages/shape-icon-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/packages/shape-icon-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/packages/tab-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/packages/tab-02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/packages/tab-03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/pages/page-title-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/pages/page-title-bg10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/pages/page-title-bg11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/pages/page-title-bg12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/pages/page-title-bg13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/pages/page-title-bg3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/pages/page-title-bg4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/pages/page-title-bg5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/pages/page-title-bg6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/pages/page-title-bg7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/pages/page-title-bg8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/pages/page-title-bg9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/price/price-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/price/price-02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/price/price-03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/price/price-04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/toggle/toggle-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/img/toggle/toggle-02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/js/Utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/js/custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/js/global.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/js/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/js/toastr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/js/toastr.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/options/optionswitch.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/options/optionswitcher.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/barrating/fontawesome-stars-o.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/barrating/jquery.barrating.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/bootstrap/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/bootstrap/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/bootstrap/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/bootstrap/css/bootstrap4.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/bootstrap/fonts/glyphicons-halflings-regulard41d.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/countdown/jquery.syotimer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/counter-up/jquery.counterup.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/datepicker/bootstrap-datepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/datepicker/datepicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/font-awesome/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/font-awesome/fonts/fontawesome-webfont3e6e.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/font-awesome/fonts/fontawesome-webfont3e6e.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/font-awesome/fonts/fontawesome-webfont3e6e.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/font-awesome/fonts/fontawesome-webfont3e6e.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/font-awesome/fonts/fontawesome-webfont3e6e.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/font-awesome/fonts/fontawesome-webfontd41d.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/images/arrow-down-1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/images/blank.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/images/fancybox_loading.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/images/fancybox_overlay.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/isotope/images/fancybox_sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/isotope/isotope-triger.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/isotope/isotope.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/isotope/isotope.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/isotope/jquery.fancybox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/isotope/jquery.fancybox.pack.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/jquery-ui/images/ui-icons_444444_256x240.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/jquery-ui/images/ui-icons_555555_256x240.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/jquery-ui/images/ui-icons_777620_256x240.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/jquery-ui/images/ui-icons_777777_256x240.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/jquery-ui/images/ui-icons_cc0000_256x240.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/jquery-ui/images/ui-icons_ffffff_256x240.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/jquery-ui/jquery-ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/jquery-ui/jquery-ui.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/jquery-ui/jquery-ui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/jquery/jquery-2.2.4.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/jquery/jquery-migrate-1.2.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/jquery/waypoints.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/revolution/assets/coloredbg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/revolution/assets/gridtile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/revolution/assets/gridtile_3x3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/revolution/assets/gridtile_3x3_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/revolution/assets/gridtile_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/revolution/assets/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/revolution/css/closedhand.cur" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/revolution/css/layers.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/revolution/css/navigation.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/revolution/css/openhand.cur" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/revolution/css/settings.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/revolution/fonts/revicons/revicons90c6.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/revolution/fonts/revicons/revicons90c6.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/revolution/fonts/revicons/revicons90c6.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/revolution/fonts/revicons/revicons90c6.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/revolution/js/extensions/revolution.extension.actions.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/revolution/js/extensions/revolution.extension.carousel.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/revolution/js/extensions/revolution.extension.kenburn.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/revolution/js/extensions/revolution.extension.migration.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/revolution/js/extensions/revolution.extension.navigation.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/revolution/js/extensions/revolution.extension.parallax.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/revolution/js/extensions/revolution.extension.slideanims.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/revolution/js/extensions/revolution.extension.video.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/revolution/js/jquery.themepunch.revolution.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/revolution/js/jquery.themepunch.tools.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/rs-plugin/revolution/css/layers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/rs-plugin/revolution/css/navigation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/rs-plugin/revolution/css/settings.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/rs-plugin/revolution/js/jquery.themepunch.revolution.min.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/rs-plugin/revolution/js/jquery.themepunch.tools.min.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/selectbox/images/arrow-down-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/selectbox/images/arrow-down-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/selectbox/images/booking-drop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/selectbox/images/light-drop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/selectbox/images/primary-drop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/selectbox/jquery.selectbox-0.1.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/selectbox/select_option1.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/slick/ajax-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/slick/fonts/slick.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/slick/fonts/slick.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/slick/fonts/slick.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/slick/fonts/slick.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/slick/fonts/slickd41d.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/slick/slick-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/slick/slick.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/slick/slick.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/validation/additional-methods.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HelloStruts_war_exploded/plugins/validation/jquery.validate.min.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/HelloStruts_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/HelloStruts_war.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/HelloStruts_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/HelloStruts_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/StarTravel_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/StarTravel_war.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/StarTravel_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/StarTravel_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Struts_2_2_5_14_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Struts_2_2_5_14_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/gson_2_8_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_8_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/sqljdbc4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sqljdbc4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/struts2_json_plugin_2_3_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/struts2_json_plugin_2_3_8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gitattributes" afterPath="$PROJECT_DIR$/gitattributes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HelloStruts/struts.xml" afterPath="$PROJECT_DIR$/out/production/HelloStruts/struts.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StarTravel/struts.xml" afterPath="$PROJECT_DIR$/out/production/StarTravel/struts.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/consts/Consts.java" afterPath="$PROJECT_DIR$/src/chau/consts/Consts.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/AddCategoriesToTourAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/AddCategoriesToTourAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/AddDateToTourAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/AddDateToTourAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/AddToCartAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/AddToCartAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/AddTourLocationAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/AddTourLocationAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/AddTourReviewAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/AddTourReviewAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/CancelOrderAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/CancelOrderAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/CancelOrderItemAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/CancelOrderItemAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/CheckoutAndShowInvoiceAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/CheckoutAndShowInvoiceAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/CreateNewCategoryAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/CreateNewCategoryAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/CreateNewDestinationAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/CreateNewDestinationAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/CreateNewTour.java" afterPath="$PROJECT_DIR$/src/chau/controller/CreateNewTour.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/DeleteCategoryAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/DeleteCategoryAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/DeleteLocationAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/DeleteLocationAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/DeleteTourAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/DeleteTourAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/EditLocationAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/EditLocationAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/EditTourAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/EditTourAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/EditTourItineraryAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/EditTourItineraryAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/EditTourReviewAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/EditTourReviewAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/FindLocationsByNameAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/FindLocationsByNameAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/GetAllCategoriesAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/GetAllCategoriesAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/GetAllLocationsAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/GetAllLocationsAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/GetAllToursAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/GetAllToursAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/GetAllUsersAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/GetAllUsersAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/GetSeatCountAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/GetSeatCountAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/GetToursByLocation.java" afterPath="$PROJECT_DIR$/src/chau/controller/GetToursByLocation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/Index.java" afterPath="$PROJECT_DIR$/src/chau/controller/Index.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/LogOutAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/LogOutAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/LoginAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/LoginAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/ManageCategoriesAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/ManageCategoriesAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/ManageLocationsAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/ManageLocationsAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/ManageToursAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/ManageToursAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/ManageUsersAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/ManageUsersAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/ProcessLocationImages.java" afterPath="$PROJECT_DIR$/src/chau/controller/ProcessLocationImages.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/ProcessTourImages.java" afterPath="$PROJECT_DIR$/src/chau/controller/ProcessTourImages.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/RemoveCategoriesFromTourAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/RemoveCategoriesFromTourAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/RemoveDateFromTourAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/RemoveDateFromTourAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/RemoveFromCartAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/RemoveFromCartAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/RemoveImageFromLocationAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/RemoveImageFromLocationAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/RemoveImageFromTourAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/RemoveImageFromTourAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/RemoveItineraryFromTourAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/RemoveItineraryFromTourAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/RemoveTourLocationAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/RemoveTourLocationAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/RemoveTourReviewAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/RemoveTourReviewAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/SearchTourAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/SearchTourAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/SetUserStatusAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/SetUserStatusAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/ShowImageAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/ShowImageAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/SignUpAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/SignUpAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/UpdateCartItemQuantityAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/UpdateCartItemQuantityAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/UpdateCategoryAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/UpdateCategoryAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/UpdateUserEmailAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/UpdateUserEmailAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/UpdateUserPasswordAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/UpdateUserPasswordAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/UpdateUserSettingsAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/UpdateUserSettingsAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/ViewAdminDashboardAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/ViewAdminDashboardAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/ViewAllInvoicesPageAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/ViewAllInvoicesPageAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/ViewAllLocationsPage.java" afterPath="$PROJECT_DIR$/src/chau/controller/ViewAllLocationsPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/ViewBookingAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/ViewBookingAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/ViewCheckoutPageAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/ViewCheckoutPageAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/ViewCreateNewDestinationAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/ViewCreateNewDestinationAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/ViewCreateNewTourAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/ViewCreateNewTourAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/ViewEditLocationAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/ViewEditLocationAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/ViewEditTourAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/ViewEditTourAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/ViewLocationPage.java" afterPath="$PROJECT_DIR$/src/chau/controller/ViewLocationPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/ViewLoginAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/ViewLoginAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/ViewProfileAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/ViewProfileAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/ViewReportAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/ViewReportAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/ViewSearchAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/ViewSearchAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/ViewSettingsPageAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/ViewSettingsPageAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/ViewSignupAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/ViewSignupAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/controller/ViewTourAction.java" afterPath="$PROJECT_DIR$/src/chau/controller/ViewTourAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/dao/AbstractDAO.java" afterPath="$PROJECT_DIR$/src/chau/dao/AbstractDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/dao/CategoryDAO.java" afterPath="$PROJECT_DIR$/src/chau/dao/CategoryDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/dao/LocationDAO.java" afterPath="$PROJECT_DIR$/src/chau/dao/LocationDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/dao/OrderDAO.java" afterPath="$PROJECT_DIR$/src/chau/dao/OrderDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/dao/TourDAO.java" afterPath="$PROJECT_DIR$/src/chau/dao/TourDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/dao/UserDAO.java" afterPath="$PROJECT_DIR$/src/chau/dao/UserDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/dto/Cart.java" afterPath="$PROJECT_DIR$/src/chau/dto/Cart.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/dto/CartItem.java" afterPath="$PROJECT_DIR$/src/chau/dto/CartItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/dto/CategoryDTO.java" afterPath="$PROJECT_DIR$/src/chau/dto/CategoryDTO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/dto/ItineraryDTO.java" afterPath="$PROJECT_DIR$/src/chau/dto/ItineraryDTO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/dto/LocationDTO.java" afterPath="$PROJECT_DIR$/src/chau/dto/LocationDTO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/dto/OrderDTO.java" afterPath="$PROJECT_DIR$/src/chau/dto/OrderDTO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/dto/OrderItemDTO.java" afterPath="$PROJECT_DIR$/src/chau/dto/OrderItemDTO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/dto/Pagination.java" afterPath="$PROJECT_DIR$/src/chau/dto/Pagination.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/dto/RefundDTO.java" afterPath="$PROJECT_DIR$/src/chau/dto/RefundDTO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/dto/ReviewDTO.java" afterPath="$PROJECT_DIR$/src/chau/dto/ReviewDTO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/dto/TourDTO.java" afterPath="$PROJECT_DIR$/src/chau/dto/TourDTO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/dto/TourDateDTO.java" afterPath="$PROJECT_DIR$/src/chau/dto/TourDateDTO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/dto/UserDTO.java" afterPath="$PROJECT_DIR$/src/chau/dto/UserDTO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/handler/ExceptionHandler.java" afterPath="$PROJECT_DIR$/src/chau/handler/ExceptionHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/interceptor/AdminInterceptor.java" afterPath="$PROJECT_DIR$/src/chau/interceptor/AdminInterceptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/interceptor/AdminOrOwnInterceptor.java" afterPath="$PROJECT_DIR$/src/chau/interceptor/AdminOrOwnInterceptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/interceptor/LoginInterceptor.java" afterPath="$PROJECT_DIR$/src/chau/interceptor/LoginInterceptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/interceptor/NotLoginInterceptor.java" afterPath="$PROJECT_DIR$/src/chau/interceptor/NotLoginInterceptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/interceptor/OwnInterceptor.java" afterPath="$PROJECT_DIR$/src/chau/interceptor/OwnInterceptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/utils/MyConnection.java" afterPath="$PROJECT_DIR$/src/chau/utils/MyConnection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chau/utils/MyUtils.java" afterPath="$PROJECT_DIR$/src/chau/utils/MyUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/struts.xml" afterPath="$PROJECT_DIR$/src/struts.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/AdminPages/AdminDashboard.jsp" afterPath="$PROJECT_DIR$/web/AdminPages/AdminDashboard.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/AdminPages/AdminFooter.jsp" afterPath="$PROJECT_DIR$/web/AdminPages/AdminFooter.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/AdminPages/AdminHeader.jsp" afterPath="$PROJECT_DIR$/web/AdminPages/AdminHeader.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/AdminPages/CategoryList.jsp" afterPath="$PROJECT_DIR$/web/AdminPages/CategoryList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/AdminPages/CreateNewDestination.jsp" afterPath="$PROJECT_DIR$/web/AdminPages/CreateNewDestination.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/AdminPages/CreateNewTour.jsp" afterPath="$PROJECT_DIR$/web/AdminPages/CreateNewTour.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/AdminPages/EditLocation.jsp" afterPath="$PROJECT_DIR$/web/AdminPages/EditLocation.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/AdminPages/EditTour.jsp" afterPath="$PROJECT_DIR$/web/AdminPages/EditTour.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/AdminPages/LeftAside.jsp" afterPath="$PROJECT_DIR$/web/AdminPages/LeftAside.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/AdminPages/LocationList.jsp" afterPath="$PROJECT_DIR$/web/AdminPages/LocationList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/AdminPages/Report.jsp" afterPath="$PROJECT_DIR$/web/AdminPages/Report.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/AdminPages/TourList.jsp" afterPath="$PROJECT_DIR$/web/AdminPages/TourList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/AdminPages/UserList.jsp" afterPath="$PROJECT_DIR$/web/AdminPages/UserList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/AdminPages/assets/app/media/img/logos/bg-6.html" afterPath="$PROJECT_DIR$/web/AdminPages/assets/app/media/img/logos/bg-6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/AdminPages/assets/app/media/img/users/user6.html" afterPath="$PROJECT_DIR$/web/AdminPages/assets/app/media/img/users/user6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/AdminPages/assets/vendors/custom/fullcalendar/fullcalendar.bundle.js" afterPath="$PROJECT_DIR$/web/AdminPages/assets/vendors/custom/fullcalendar/fullcalendar.bundle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/AdminPages/assets/vendors/custom/jquery-ui/images/jquery-ui/ui-icons_444444_256x240.html" afterPath="$PROJECT_DIR$/web/AdminPages/assets/vendors/custom/jquery-ui/images/jquery-ui/ui-icons_444444_256x240.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/AdminPages/assets/vendors/custom/jquery-ui/images/jquery-ui/ui-icons_555555_256x240.html" afterPath="$PROJECT_DIR$/web/AdminPages/assets/vendors/custom/jquery-ui/images/jquery-ui/ui-icons_555555_256x240.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/AdminPages/assets/vendors/custom/jquery-ui/images/jquery-ui/ui-icons_777620_256x240.html" afterPath="$PROJECT_DIR$/web/AdminPages/assets/vendors/custom/jquery-ui/images/jquery-ui/ui-icons_777620_256x240.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/AdminPages/assets/vendors/custom/jquery-ui/images/jquery-ui/ui-icons_777777_256x240.html" afterPath="$PROJECT_DIR$/web/AdminPages/assets/vendors/custom/jquery-ui/images/jquery-ui/ui-icons_777777_256x240.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/AdminPages/assets/vendors/custom/jquery-ui/images/jquery-ui/ui-icons_cc0000_256x240.html" afterPath="$PROJECT_DIR$/web/AdminPages/assets/vendors/custom/jquery-ui/images/jquery-ui/ui-icons_cc0000_256x240.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/AdminPages/assets/vendors/custom/jquery-ui/images/jquery-ui/ui-icons_ffffff_256x240.html" afterPath="$PROJECT_DIR$/web/AdminPages/assets/vendors/custom/jquery-ui/images/jquery-ui/ui-icons_ffffff_256x240.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Booking.jsp" afterPath="$PROJECT_DIR$/web/Booking.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/CheckOutInvoice.jsp" afterPath="$PROJECT_DIR$/web/CheckOutInvoice.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/CheckOutStep1.jsp" afterPath="$PROJECT_DIR$/web/CheckOutStep1.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Error/403.jsp" afterPath="$PROJECT_DIR$/web/Error/403.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Error/404.jsp" afterPath="$PROJECT_DIR$/web/Error/404.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Error/500.jsp" afterPath="$PROJECT_DIR$/web/Error/500.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Home.jsp" afterPath="$PROJECT_DIR$/web/Home.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/LocationDetails.jsp" afterPath="$PROJECT_DIR$/web/LocationDetails.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Locations.jsp" afterPath="$PROJECT_DIR$/web/Locations.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Login.jsp" afterPath="$PROJECT_DIR$/web/Login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/OldInvoices.jsp" afterPath="$PROJECT_DIR$/web/OldInvoices.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Search.jsp" afterPath="$PROJECT_DIR$/web/Search.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Settings.jsp" afterPath="$PROJECT_DIR$/web/Settings.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Signup.jsp" afterPath="$PROJECT_DIR$/web/Signup.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/TourDetails.jsp" afterPath="$PROJECT_DIR$/web/TourDetails.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/struts.properties" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/struts.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/style.css" afterPath="$PROJECT_DIR$/web/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/global/Footer.jsp" afterPath="$PROJECT_DIR$/web/global/Footer.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/global/GlobalCSS.jsp" afterPath="$PROJECT_DIR$/web/global/GlobalCSS.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/global/GlobalJS.jsp" afterPath="$PROJECT_DIR$/web/global/GlobalJS.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/global/Header.jsp" afterPath="$PROJECT_DIR$/web/global/Header.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/global/Modals.jsp" afterPath="$PROJECT_DIR$/web/global/Modals.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/global/ProfileDashboard.jsp" afterPath="$PROJECT_DIR$/web/global/ProfileDashboard.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/global/TourCard.jsp" afterPath="$PROJECT_DIR$/web/global/TourCard.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/Utils.js" afterPath="$PROJECT_DIR$/web/js/Utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/custom.js" afterPath="$PROJECT_DIR$/web/js/custom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/global.jsp" afterPath="$PROJECT_DIR$/web/js/global.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/jquery.js" afterPath="$PROJECT_DIR$/web/js/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/plugins/revolution/js/extensions/revolution.extension.actions.min.js" afterPath="$PROJECT_DIR$/web/plugins/revolution/js/extensions/revolution.extension.actions.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/plugins/revolution/js/extensions/revolution.extension.carousel.min.js" afterPath="$PROJECT_DIR$/web/plugins/revolution/js/extensions/revolution.extension.carousel.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/plugins/revolution/js/extensions/revolution.extension.kenburn.min.js" afterPath="$PROJECT_DIR$/web/plugins/revolution/js/extensions/revolution.extension.kenburn.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js" afterPath="$PROJECT_DIR$/web/plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/plugins/revolution/js/extensions/revolution.extension.migration.min.js" afterPath="$PROJECT_DIR$/web/plugins/revolution/js/extensions/revolution.extension.migration.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/plugins/revolution/js/extensions/revolution.extension.navigation.min.js" afterPath="$PROJECT_DIR$/web/plugins/revolution/js/extensions/revolution.extension.navigation.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/plugins/revolution/js/extensions/revolution.extension.parallax.min.js" afterPath="$PROJECT_DIR$/web/plugins/revolution/js/extensions/revolution.extension.parallax.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/plugins/revolution/js/extensions/revolution.extension.slideanims.min.js" afterPath="$PROJECT_DIR$/web/plugins/revolution/js/extensions/revolution.extension.slideanims.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/plugins/revolution/js/extensions/revolution.extension.video.min.js" afterPath="$PROJECT_DIR$/web/plugins/revolution/js/extensions/revolution.extension.video.min.js" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/HelloStruts$Glassfish.coverage" NAME="Glassfish Coverage Results" MODIFIED="1520038245742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="struts_2_5" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>user-rating</find>
+      <find>cursor: pointer</find>
+      <find>contextPath</find>
+      <find>review-count</find>
+      <find>review-rating</find>
+      <find>tourDTO</find>
+      <find>searchFilter</find>
+      <find>title</find>
+      <find>ADMIN</find>
+      <find>select</find>
+      <find>remove-comm</find>
+      <find>ADMIN.value</find>
+      <find>#average-rating</find>
+      <find>average-rating</find>
+      <find>TINPHAT</find>
+      <find>return Action.SUCCESS</find>
+      <find>search</find>
+      <find>swal</find>
+      <find>Reviews</find>
+      <find>textarea</find>
+      <find>validate</find>
+      <find>inquiry</find>
+      <find>id=&quot;inqui</find>
+      <find>submitHandler</find>
+      <find>submit</find>
+      <find>submitHandle</find>
+      <find>cancel</find>
+      <find>.validate</find>
+      <find>cancelord</find>
+      <find>ViewLocationP</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web/AdminPages/CreateNewTour.jsp" />
+        <option value="$PROJECT_DIR$/web/AdminPages/AdminFooter.jsp" />
+        <option value="$PROJECT_DIR$/web/js/global.jsp" />
+        <option value="$PROJECT_DIR$/web/CheckOutStep1.jsp" />
+        <option value="$PROJECT_DIR$/src/chau/controller/ViewTourAction.java" />
+        <option value="$PROJECT_DIR$/web/global/GlobalCSS.jsp" />
+        <option value="$PROJECT_DIR$/src/chau/dto/Cart.java" />
+        <option value="$PROJECT_DIR$/src/chau/dto/CartItem.java" />
+        <option value="$PROJECT_DIR$/src/chau/dto/Pagination.java" />
+        <option value="$PROJECT_DIR$/src/chau/dto/ReviewDTO.java" />
+        <option value="$PROJECT_DIR$/web/global/GlobalJS.jsp" />
+        <option value="$PROJECT_DIR$/src/chau/controller/AddTourReviewAction.java" />
+        <option value="$PROJECT_DIR$/src/chau/controller/LoginAction.java" />
+        <option value="$PROJECT_DIR$/web/global/TourCard.jsp" />
+        <option value="$PROJECT_DIR$/web/Home.jsp" />
+        <option value="$PROJECT_DIR$/web/AdminPages/EditTour.jsp" />
+        <option value="$PROJECT_DIR$/src/chau/controller/RemoveTourReviewAction.java" />
+        <option value="$PROJECT_DIR$/src/chau/controller/EditTourReviewAction.java" />
+        <option value="$PROJECT_DIR$/lib/struts2-core.jar!/com/opensymphony/xwork2/ActionSupport.class" />
+        <option value="$PROJECT_DIR$/src/chau/utils/MyConnection.java" />
+        <option value="$PROJECT_DIR$/web/Search.jsp" />
+        <option value="$PROJECT_DIR$/src/chau/dao/ReviewDAO.java" />
+        <option value="$PROJECT_DIR$/web/TourDetails.jsp" />
+        <option value="$PROJECT_DIR$/src/chau/controller/SendMessageAction.java" />
+        <option value="$PROJECT_DIR$/src/chau/controller/SendFirstMessageAction.java" />
+        <option value="$PROJECT_DIR$/src/chau/dao/MessageDAO.java" />
+        <option value="$PROJECT_DIR$/src/chau/utils/MyUtils.java" />
+        <option value="$PROJECT_DIR$/web/Booking.jsp" />
+        <option value="$PROJECT_DIR$/src/chau/controller/CancelOrderAction.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/classes/struts.properties" />
+        <option value="$PROJECT_DIR$/src/chau/dto/CancelResult.java" />
+        <option value="$PROJECT_DIR$/src/chau/controller/CancelOrderItemAction.java" />
+        <option value="$PROJECT_DIR$/src/chau/dto/OrderItemDTO.java" />
+        <option value="$PROJECT_DIR$/src/chau/dto/RefundDTO.java" />
+        <option value="$PROJECT_DIR$/lib/ognl.jar!/ognl/OgnlRuntime.class" />
+        <option value="$PROJECT_DIR$/src/chau/dao/OrderDAO.java" />
+        <option value="$PROJECT_DIR$/web/OldInvoices.jsp" />
+        <option value="$PROJECT_DIR$/src/chau/dto/LocationDTO.java" />
+        <option value="$PROJECT_DIR$/src/chau/dto/UserDTO.java" />
+        <option value="$PROJECT_DIR$/src/chau/controller/ViewReportAction.java" />
+        <option value="$PROJECT_DIR$/web/AdminPages/LeftAside.jsp" />
+        <option value="$PROJECT_DIR$/src/chau/handler/ExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/src/chau/dao/LocationDAO.java" />
+        <option value="$PROJECT_DIR$/src/chau/dao/UserDAO.java" />
+        <option value="$PROJECT_DIR$/src/chau/consts/Consts.java" />
+        <option value="$PROJECT_DIR$/src/chau/dto/TourDTO.java" />
+        <option value="$PROJECT_DIR$/src/chau/dao/TourDAO.java" />
+        <option value="$PROJECT_DIR$/web/AdminPages/assets/demo/default/base/style.bundle.css" />
+        <option value="$PROJECT_DIR$/src/chau/controller/ViewLocationPage.java" />
+        <option value="$PROJECT_DIR$/web/AdminPages/Report.jsp" />
+        <option value="$PROJECT_DIR$/src/struts.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1932" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="StarTravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StarTravel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StarTravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StarTravel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StarTravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StarTravel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chau" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StarTravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StarTravel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chau" type="462c0819:PsiDirectoryNode" />
+              <item name="consts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StarTravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StarTravel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chau" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StarTravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StarTravel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chau" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StarTravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StarTravel" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StarTravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StarTravel" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminPages" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="Abst&#9;FILE&#9;file://D:/FPT Ebooks/Spring18/PRJ321/HelloStruts/src/chau/dao/AbstractDAO.java" />
+    <property name="jsx.switch.disabled" value="true" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\FPT Ebooks\Spring18\PRJ321\HelloStruts\web\Error" />
+      <recent name="D:\FPT Ebooks\Spring18\PRJ321\HelloStruts\web\Error\assets" />
+      <recent name="D:\FPT Ebooks\Spring18\PRJ321\HelloStruts\web\css" />
+      <recent name="D:\FPT Ebooks\Spring18\PRJ321\HelloStruts\web\AdminPages" />
+      <recent name="D:\FPT Ebooks\Spring18\PRJ321\HelloStruts\web\WEB-INF\classes" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\FPT Ebooks\Spring18\PRJ321\HelloStruts\web\css" />
+      <recent name="D:\FPT Ebooks\Spring18\PRJ321\HelloStruts\web" />
+      <recent name="D:\FPT Ebooks\Spring18\PRJ321\HelloStruts\web\AdminPages" />
+      <recent name="D:\FPT Ebooks\Spring18\PRJ321\HelloStruts" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="chau.dto" />
+      <recent name="chau.dao" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="GlassFish Server.Glassfish">
+    <configuration name="Glassfish" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 4.1.1" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="HelloStruts:war exploded">
+          <settings>
+            <option name="contextRoot" value="/StarTravel" />
+            <option name="defaultContextRoot" value="false" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="DOMAIN" value="domain1" />
+        <option name="PRESERVE" value="false" />
+        <option name="COMPATIBILITY" value="false" />
+        <option name="VIRTUAL_SERVER" />
+        <option name="USERNAME" value="admin" />
+        <option name="PASSWORD" value="" />
+      </server-settings>
+      <predefined_log_file id="GlassFish" enabled="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="9009" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="HelloStruts:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="HelloStruts" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.82" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="HelloStruts:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_HelloStruts" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="65004" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="HelloStruts:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="HelloStruts" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="GlassFish Server.Glassfish" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.HelloStruts" />
+    </list>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e04a8505-33af-4319-a277-3e84fef3619e" name="Default" comment="" />
+      <created>1518597231703</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1518597231703</updated>
+      <workItem from="1518597233883" duration="72000" />
+      <workItem from="1518597522065" duration="1406000" />
+      <workItem from="1518609053151" duration="12973000" />
+      <workItem from="1518655465458" duration="418000" />
+      <workItem from="1518655930481" duration="15130000" />
+      <workItem from="1518679372573" duration="65000" />
+      <workItem from="1518679470793" duration="20653000" />
+      <workItem from="1518756291077" duration="712000" />
+      <workItem from="1518760628544" duration="12568000" />
+      <workItem from="1518941333934" duration="613000" />
+      <workItem from="1518941980115" duration="4350000" />
+      <workItem from="1519024826748" duration="19993000" />
+      <workItem from="1519087843257" duration="1224000" />
+      <workItem from="1519093992284" duration="17978000" />
+      <workItem from="1519173212743" duration="20473000" />
+      <workItem from="1519195455211" duration="30067000" />
+      <workItem from="1519261802449" duration="33521000" />
+      <workItem from="1519348956723" duration="870000" />
+      <workItem from="1519351034885" duration="29570000" />
+      <workItem from="1519431601983" duration="396000" />
+      <workItem from="1519432034386" duration="47971000" />
+      <workItem from="1519518383805" duration="30237000" />
+      <workItem from="1519601330631" duration="9000" />
+      <workItem from="1519645453049" duration="7113000" />
+      <workItem from="1519685461749" duration="5194000" />
+      <workItem from="1519694886473" duration="1672000" />
+      <workItem from="1519697688656" duration="9911000" />
+      <workItem from="1519709742560" duration="1816000" />
+      <workItem from="1519724013247" duration="216000" />
+      <workItem from="1519724259985" duration="11921000" />
+      <workItem from="1519774117369" duration="3473000" />
+      <workItem from="1519781726610" duration="493000" />
+      <workItem from="1519782255430" duration="9964000" />
+      <workItem from="1519818010017" duration="7814000" />
+      <workItem from="1519859523401" duration="3299000" />
+      <workItem from="1519867972955" duration="796000" />
+      <workItem from="1519875048691" duration="1221000" />
+      <workItem from="1519891464158" duration="11923000" />
+      <workItem from="1519944577453" duration="1808000" />
+      <workItem from="1519954579125" duration="11490000" />
+      <workItem from="1520038223888" duration="255000" />
+      <workItem from="1520038521067" duration="18787000" />
+      <workItem from="1520149986410" duration="388000" />
+      <workItem from="1520150412281" duration="20359000" />
+      <workItem from="1520206029708" duration="3128000" />
+      <workItem from="1520239492130" duration="2860000" />
+      <workItem from="1520251071992" duration="8410000" />
+      <workItem from="1520291462647" duration="3905000" />
+      <workItem from="1520300012446" duration="10764000" />
+      <workItem from="1520377869644" duration="6380000" />
+      <workItem from="1520386509719" duration="10887000" />
+      <workItem from="1520423688253" duration="11026000" />
+      <workItem from="1520466344335" duration="782000" />
+      <workItem from="1520472765819" duration="11938000" />
+      <workItem from="1520487415535" duration="2521000" />
+      <workItem from="1520494634217" duration="19193000" />
+      <workItem from="1520551807003" duration="1805000" />
+      <workItem from="1520559609252" duration="11236000" />
+      <workItem from="1520576154099" duration="3781000" />
+      <workItem from="1520598059911" duration="10204000" />
+      <workItem from="1520650488355" duration="5766000" />
+      <workItem from="1520663660512" duration="7171000" />
+      <workItem from="1520728562682" duration="2973000" />
+      <workItem from="1520737322198" duration="55000" />
+      <workItem from="1520737541854" duration="7754000" />
+      <workItem from="1520756316438" duration="33000" />
+      <workItem from="1520761350965" duration="212000" />
+      <workItem from="1520761879560" duration="19276000" />
+      <workItem from="1520810956145" duration="18884000" />
+      <workItem from="1520833111016" duration="3066000" />
+      <workItem from="1520845176417" duration="1751000" />
+      <workItem from="1520854898466" duration="3764000" />
+      <workItem from="1520859284095" duration="10878000" />
+      <workItem from="1520895219741" duration="748000" />
+      <workItem from="1520904811752" duration="9769000" />
+      <workItem from="1520919548426" duration="6807000" />
+      <workItem from="1520935731915" duration="15944000" />
+      <workItem from="1520955188867" duration="1066000" />
+      <workItem from="1520981874746" duration="6427000" />
+      <workItem from="1520991148252" duration="4414000" />
+      <workItem from="1520996315019" duration="7926000" />
+      <workItem from="1521013406477" duration="100000" />
+      <workItem from="1521016742775" duration="6348000" />
+      <workItem from="1521029072366" duration="8975000" />
+      <workItem from="1521041115936" duration="330000" />
+      <workItem from="1521041478708" duration="498000" />
+      <workItem from="1521068239744" duration="11000" />
+      <workItem from="1521246790618" duration="7705000" />
+      <workItem from="1521254776129" duration="251000" />
+      <workItem from="1521255064505" duration="31776000" />
+      <workItem from="1521299363118" duration="71000" />
+      <workItem from="1521335181537" duration="29000" />
+      <workItem from="1521335923872" duration="16602000" />
+      <workItem from="1521459817279" duration="1166000" />
+      <workItem from="1521607366966" duration="1838000" />
+      <workItem from="1521613356910" duration="9779000" />
+      <workItem from="1521632404369" duration="4767000" />
+      <workItem from="1521711631116" duration="2420000" />
+      <workItem from="1521769195512" duration="3503000" />
+      <workItem from="1521858193537" duration="25534000" />
+      <workItem from="1521907202342" duration="678000" />
+      <workItem from="1521936032771" duration="23755000" />
+      <workItem from="1522066366185" duration="295000" />
+      <workItem from="1522067198873" duration="619000" />
+      <workItem from="1522114290754" duration="693000" />
+      <workItem from="1522132742298" duration="690000" />
+      <workItem from="1522139209826" duration="384000" />
+      <workItem from="1524744414364" duration="223000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="833726000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.049342107" sideWeight="0.5229167" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07017544" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20104167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.030701755" sideWeight="0.47708333" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08552632" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.049342107" sideWeight="0.5229167" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07017544" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06688596" sideWeight="0.47708333" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08552632" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20062695" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="371" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/chau/controller/AddCategoriesToTourAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chau/controller/AddTourLocationAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chau/controller/CreateNewDestinationAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chau/controller/AddDateToTourAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/AdminPages/AdminFooter.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="94" column="0" lean-forward="true" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Search.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="110" column="26" lean-forward="true" selection-start-line="110" selection-start-column="26" selection-end-line="110" selection-end-column="26" />
+          <folding>
+            <marker date="1521613786231" expanded="true" signature="9046:11399" ph="..." />
+            <marker date="1521613786231" expanded="true" signature="9114:11375" ph="..." />
+            <marker date="1521613786231" expanded="false" signature="9157:9189" ph="..." />
+            <marker date="1521613786231" expanded="true" signature="9190:9302" ph="..." />
+            <marker date="1521613786231" expanded="true" signature="9474:10375" ph="..." />
+            <marker date="1521613786231" expanded="true" signature="9576:9973" ph="..." />
+            <marker date="1521613786231" expanded="true" signature="10040:10339" ph="..." />
+            <marker date="1521613786231" expanded="false" signature="10434:10448" ph="..." />
+            <marker date="1521613786231" expanded="true" signature="10449:11347" ph="..." />
+            <marker date="1521613786231" expanded="false" signature="10492:10529" ph="..." />
+            <marker date="1521613786231" expanded="true" signature="10530:10683" ph="..." />
+            <marker date="1521613786231" expanded="false" signature="10722:10848" ph="..." />
+            <marker date="1521613786231" expanded="true" signature="10930:11315" ph="..." />
+            <marker date="1521613786231" expanded="true" signature="11096:11279" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chau/controller/SearchTourAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="78" column="34" lean-forward="false" selection-start-line="78" selection-start-column="34" selection-end-line="78" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/TourDetails.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18900">
+          <caret line="900" column="57" lean-forward="false" selection-start-line="900" selection-start-column="41" selection-end-line="900" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chau/controller/SendFirstMessageAction.java" />
+    <entry file="file://$PROJECT_DIR$/src/chau/dao/MessageDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/chau/utils/MyUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="62" column="9" lean-forward="true" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chau/controller/SendMessageAction.java" />
+    <entry file="file://$PROJECT_DIR$/web/AdminPages/EditLocation.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5544">
+          <caret line="264" column="36" lean-forward="false" selection-start-line="264" selection-start-column="36" selection-end-line="264" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/AdminPages/CategoryList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="358" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Booking.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="213" column="0" lean-forward="true" selection-start-line="213" selection-start-column="0" selection-end-line="213" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chau/controller/CancelOrderAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chau/controller/GetAllToursAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/classes/struts.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chau/dto/CancelResult.java" />
+    <entry file="file://$PROJECT_DIR$/web/global/Header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="40" column="48" lean-forward="true" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chau/dto/OrderItemDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="80" column="41" lean-forward="true" selection-start-line="80" selection-start-column="41" selection-end-line="80" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chau/dto/OrderDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="57" column="16" lean-forward="false" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chau/dto/TourDateDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/global/Modals.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="44" column="20" lean-forward="true" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chau/controller/CheckoutAndShowInvoiceAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="48" column="24" lean-forward="false" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chau/dto/RefundDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chau/controller/ViewProfileAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chau/controller/GetSeatCountAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chau/controller/CancelOrderItemAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chau/dao/OrderDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="707">
+          <caret line="375" column="0" lean-forward="true" selection-start-line="375" selection-start-column="0" selection-end-line="375" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/OldInvoices.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="450" column="43" lean-forward="true" selection-start-line="450" selection-start-column="43" selection-end-line="450" selection-end-column="43" />
+          <folding>
+            <marker date="1521966149960" expanded="false" signature="7782:7800" ph="..." />
+            <marker date="1521966149960" expanded="false" signature="7914:7925" ph="..." />
+            <marker date="1521966149960" expanded="false" signature="27926:27942" ph="..." />
+            <marker date="1521966149960" expanded="true" signature="27943:28236" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chau/controller/ViewAllInvoicesPageAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/ognl.jar!/ognl/OgnlRuntime.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="1040" column="0" lean-forward="false" selection-start-line="1040" selection-start-column="0" selection-end-line="1040" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chau/handler/ExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chau/dao/LocationDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="313" column="33" lean-forward="false" selection-start-line="313" selection-start-column="33" selection-end-line="313" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chau/dao/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="293" column="153" lean-forward="false" selection-start-line="293" selection-start-column="153" selection-end-line="293" selection-end-column="153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Error/500.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/AdminPages/assets/demo/default/base/style.bundle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="18597" column="22" lean-forward="false" selection-start-line="18597" selection-start-column="22" selection-end-line="18597" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chau/controller/ViewLocationPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="55" column="62" lean-forward="false" selection-start-line="55" selection-start-column="62" selection-end-line="55" selection-end-column="62" />
+          <folding>
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chau/dto/LocationDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/AdminPages/AdminHeader.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/AdminPages/CreateNewDestination.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <marker date="1521038429386" expanded="true" signature="20136:20142" ph="&amp;nbsp;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chau/dao/TourDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="809">
+          <caret line="1298" column="25" lean-forward="true" selection-start-line="1298" selection-start-column="25" selection-end-line="1298" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chau/dto/TourDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3486">
+          <caret line="267" column="8" lean-forward="false" selection-start-line="267" selection-start-column="8" selection-end-line="267" selection-end-column="26" />
+          <folding>
+            <element signature="e#6469#6470#0" expanded="true" />
+            <element signature="e#6513#6514#0" expanded="true" />
+            <element signature="e#6550#6551#0" expanded="true" />
+            <element signature="e#6583#6584#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chau/controller/ViewReportAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="42" column="37" lean-forward="false" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/AdminPages/Report.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4473">
+          <caret line="213" column="136" lean-forward="false" selection-start-line="213" selection-start-column="136" selection-end-line="213" selection-end-column="136" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10395">
+          <caret line="495" column="78" lean-forward="false" selection-start-line="495" selection-start-column="78" selection-end-line="495" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/AdminPages/LeftAside.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="65" column="26" lean-forward="false" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chau/dto/UserDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chau/consts/Consts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chau/controller/AddToCartAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>HelloStruts:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Struts 2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>StarTravel</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>gson-2.8.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

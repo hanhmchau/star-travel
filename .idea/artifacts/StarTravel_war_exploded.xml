@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="StarTravel:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/StarTravel_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="StarTravel" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Struts 2-2.5.14.1" />
+          <element id="library" level="project" name="sqljdbc4" />
+          <element id="library" level="project" name="struts2-json-plugin-2.3.8" />
+          <element id="library" level="project" name="gson-2.8.2" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="StarTravel/web/Web" />
+    </root>
+  </artifact>
+</component>
