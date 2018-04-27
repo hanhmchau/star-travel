@@ -1,2 +1,3 @@
 *.css linguist-vendored
+*.min.css linguist-vendored
 web/css/style.css linguist-vendored=false
